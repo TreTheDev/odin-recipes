@@ -1,3 +1,41 @@
-#title {
-    text-align: center;
+html {
+    background: linear-gradient(180deg, #006666, #669999);
 }
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.img.other {
+    max-height: 675px;
+}
+
+/* unvisited link */
+a:link {
+    color: #99ff99;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: chocolate;
+}
+
+/* selected link */
+a:active {
+    color: crimson;
+}
+
