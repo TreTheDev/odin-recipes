@@ -5,6 +5,11 @@ html {
 .title {
     text-align: center;
     text-transform: uppercase;
+    font-family: "Brush Script MT", Helvetica, Verdana;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, Verdana;
 }
 
 .img {
